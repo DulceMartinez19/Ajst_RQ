@@ -1,0 +1,34 @@
+---
+title: "Ajuste de regresion cuantilica"
+author: "N_P"
+format: docx
+editor: visual
+---
+
+## \## Introduccion
+
+La regresion cuantilica es una herramienta estadística que puede ser aplicada en el contexto de la actividad pecuaria para analizar y modelar diferentes aspectos relacionados con el peso de los animales y su desarrollo en funcion de diversas variables, en lugar de ajustar una única línea de regresión, ésta permite capturar la relacion entre las variables a diferentes niveles de cuantiles. mediante el uso de la regresion cuantílixa, es posible identificar y comprender cómo las variables predictoras pueden afectar de manera distinta a los cuantiles más bajos o más altos de la distribucion del peso animal \[\@otero2012regresion\].
+
+La aplicacion de dicha regresión en la actividad pecuaria proporciona beneficios significativos al considerar la variabilidad, identificar factores de influencia, tomar decisiones informadas, manejar valores atípicos y adaptarse a diferentes distribuciones. Estos beneficios ayudan a mejorar la comprensión y la gestión del crecimiento y desarrollo de los animales, lo que puede llevar a mejoras en la productividad y la rentabilidad en la actividad pecuaria\[\@calderondesarrollo\].
+
+\## Objetivos
+
+\- Ajustar el paquete que existe en R, modificando y acoplando nuevos párametros para poder observar una interaccion entre los diferentes cuantiles que se deseen considerar.
+
+\- Comprobar que las modificaciones sean exitosas mediante un ejemplo práctico.
+
+-estimar la relacion entre las variables predictoras y diferentes cuantiles de la variable de respuesta
+
+\## Modelo estadistico
+
+El modelo estadistico utilizado en el codigo es un modelo de regresion cuantílica, que es una extension del modelo de regresión lineal que se utiliza para estimar cuantiles condicionales de una o más variables predictoras. En el codigo que a continuación será presentado, se ajustan múltiples modelos de regresion cuantílica utilizando la funcion "rq" del paquete quantreg
+
+La regresión cuantílica ajustada tiene como modelo la siguiente formula:
+
+\\\\begin{equation} Ajust=\\vardinependiente \\\~ \\vardependiente, \\tau=\\tau\[i\], \\method="br
+
+\## Ejemplos de aplicacion del paquete
+
+\## Conclusion
+
+\## Literatura citada
